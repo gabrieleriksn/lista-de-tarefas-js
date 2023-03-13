@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: #f4bcb3;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.logo{
+    flex: 80%;
+    margin-left: 5%;
+    height: 70px;
+    width: 180px;
+}
+
+.logo a img{
+    transition-timing-function: ease;
+    transition-duration: 750ms;
+    transition-property: all;
+    transition-delay: 50ms;
+}
+
+.logo a img:hover{
+    height: 70px;
+}
+
+.contatos{
+    flex: 10%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 110px;
+}
+
+.contatos a{
+    text-align: center;
+    height: 50px;
+    width: 55px;
+}
+
+.contatos a img{
+    height: 40px;
+    transition-timing-function: ease;
+    transition-duration: 600ms;
+    transition-property: all;
+    transition-delay: 30ms;
+}
+
+.contatos a img:hover{
+    height: 50px;
+}
