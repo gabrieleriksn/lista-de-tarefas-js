@@ -37,35 +37,10 @@
         
         <div class="input-de-tarefas">
             <input id="inputAdd" type="text" placeholder="Digite a tarefa">
-            <button class="botao-add">Adicionar</button>
+            <button id="btnAdd" onclick="addTarefa()" class="botao-add">Adicionar</button>
         </div>
         
-        <main id="areaLista">
-            <div class="item">
-                <div class="item-icone">
-                    <i class="mdi mdi-circle-outline"></i>
-                </div>
-                <div class="item-nome">
-                    teste de tarefa
-                </div>
-                <div class="item-botao">
-                    <button class="delete"><i class="mdi mdi-delete"></i> Deletar</button>
-                </div>
-            </div>
-            
-            <div class="item clicado">
-                <div class="item-icone">
-                    <i class="mdi mdi-check-circle"></i>
-                </div>
-                <div class="item-nome">
-                    teste de tarefa
-                </div>
-                <div class="item-botao">
-                    <button class="delete"><i class="mdi mdi-delete"></i> Deletar</button>
-                </div>
-            </div>
-        
-        </main>
+        <main id="areaLista"></main>
     </section>
 
     <script src="js/controle.js"></script>

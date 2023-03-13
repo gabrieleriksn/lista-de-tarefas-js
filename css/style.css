@@ -195,6 +195,7 @@ header .img-headline{
 
 .myTasks main .item{
     display: flex;
+    cursor: pointer;
     flex-flow:row wrap;
     justify-content: center;
     align-items: center;
@@ -236,6 +237,12 @@ header .img-headline{
     height: 60px;
     border: none;
     padding: 10px;
+}
+
+.myTasks main .item .item-botao .delete:hover{
+    cursor: pointer;
+    background-color: #ec7369;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .myTasks main .item.clicado{
