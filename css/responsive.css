@@ -10,6 +10,12 @@
     nav .contatos{
         display: none;
     }
+
+    footer .contatos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
     header{
         flex-direction: column;
