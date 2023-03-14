@@ -1,0 +1,22 @@
+@media screen and (max-width:848px) {
+    nav{
+        text-align: center;
+    }
+    
+    nav .logo{
+        margin: 0px;
+    }
+
+    nav .contatos{
+        display: none;
+    }
+    
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header .headline{
+        margin: 20px;
+    }
+}
