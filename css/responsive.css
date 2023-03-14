@@ -25,4 +25,9 @@
     header .headline{
         margin: 20px;
     }
+
+    .myTasks .input-de-tarefas{
+        width: 70%;
+        justify-content: center;
+    }
 }

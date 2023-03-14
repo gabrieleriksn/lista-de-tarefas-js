@@ -145,7 +145,7 @@ header .img-headline{
 .myTasks .input-de-tarefas{
     display: flex;
     flex-flow: row nowrap;
-    width: 90%;
+    width: 65%;
     margin: auto auto;
     align-items: center;
 }
