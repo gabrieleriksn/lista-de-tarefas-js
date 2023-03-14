@@ -219,7 +219,7 @@ header .img-headline{
     flex: 55%;
     font-size: 20px;
     color: #b34c49;
-    overflow: scroll;
+    overflow: auto;
     /* border: 1px solid black; */
 }
 
